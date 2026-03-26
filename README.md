@@ -27,7 +27,18 @@ A modern, responsive portfolio website built with React.js, showcasing my experi
 6. **Contact**: Multiple ways to get in touch
 7. **Footer**: Simple, elegant footer
 
-## Getting Started
+## Documentation
+
+📖 **[Complete Documentation & Customization Guide](DOCUMENTATION.md)**
+
+Learn how to:
+- Update your photo and resume
+- Add or edit work experience
+- Modify skills and personal information
+- Customize colors and styling
+- Deploy to various platforms
+
+## Quick Start
 
 ### Prerequisites
 
