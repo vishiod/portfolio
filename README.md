@@ -94,9 +94,9 @@ The website uses a carefully selected color palette:
 ## Contact
 
 **Vishal Sharma**
-- Email: vishalsharma01386@gmail.com
 - Location: Cork, Ireland
-- Phone: +353 89 971 3065
+- LinkedIn: [vishalsharma0112](https://www.linkedin.com/in/vishalsharma0112/)
+- GitHub: [vishiod](https://github.com/vishiod)
 
 ---
 
