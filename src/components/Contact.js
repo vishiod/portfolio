@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.css';
-import { FaEnvelope, FaLinkedin, FaGithub, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaEnvelope, FaLinkedin, FaGithub, FaMapMarkerAlt } from 'react-icons/fa';
 
 const Contact = () => {
   return (
@@ -28,14 +28,6 @@ const Contact = () => {
             <div className="contact-details">
               <span className="contact-label">Email</span>
               <span className="contact-value">vishalsharma01386@gmail.com</span>
-            </div>
-          </a>
-
-          <a href="tel:+353899713065" className="contact-card">
-            <FaPhone className="contact-icon" />
-            <div className="contact-details">
-              <span className="contact-label">Phone</span>
-              <span className="contact-value">+353 89 971 3065</span>
             </div>
           </a>
 

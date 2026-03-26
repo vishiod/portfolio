@@ -68,7 +68,6 @@ const Terminal = () => {
     ],
     contact: () => [
       'Email:    vishalsharma01386@gmail.com',
-      'Phone:    +353 89 971 3065',
       'Location: Cork, Ireland',
       'LinkedIn: linkedin.com/in/vishalsharma0112',
       'GitHub:   github.com/vishiod',
