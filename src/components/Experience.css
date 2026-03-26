@@ -1,0 +1,132 @@
+.experience {
+  padding: 100px 50px;
+}
+
+.experience-container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 30px;
+  min-height: 400px;
+}
+
+.tab-list {
+  display: flex;
+  flex-direction: column;
+  border-left: 2px solid var(--secondary-color);
+}
+
+.tab-button {
+  background: none;
+  border: none;
+  border-left: 2px solid var(--secondary-color);
+  color: var(--text-color);
+  padding: 15px 20px;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+  font-family: 'Courier New', monospace;
+  margin-left: -2px;
+}
+
+.tab-button:hover {
+  background-color: rgba(100, 255, 218, 0.1);
+  color: var(--accent-color);
+}
+
+.tab-button.active {
+  border-left-color: var(--accent-color);
+  color: var(--accent-color);
+  background-color: rgba(100, 255, 218, 0.1);
+}
+
+.tab-content {
+  padding: 10px;
+}
+
+.job-title {
+  font-size: 1.5rem;
+  color: var(--text-light);
+  margin-bottom: 10px;
+}
+
+.company-name {
+  color: var(--accent-color);
+}
+
+.job-period {
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+  color: var(--text-color);
+  margin-bottom: 5px;
+}
+
+.job-location {
+  font-size: 0.9rem;
+  color: var(--text-color);
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.job-details {
+  list-style: none;
+  padding: 0;
+}
+
+.job-details li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 15px;
+  line-height: 1.7;
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+.job-details li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: var(--accent-color);
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .experience {
+    padding: 80px 20px;
+  }
+
+  .experience-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .tab-list {
+    flex-direction: row;
+    border-left: none;
+    border-bottom: 2px solid var(--secondary-color);
+    overflow-x: auto;
+  }
+
+  .tab-button {
+    border-left: none;
+    border-bottom: 2px solid var(--secondary-color);
+    padding: 15px 20px;
+    margin-left: 0;
+    margin-bottom: -2px;
+    white-space: nowrap;
+  }
+
+  .tab-button.active {
+    border-left: none;
+    border-bottom-color: var(--accent-color);
+  }
+
+  .job-title {
+    font-size: 1.3rem;
+  }
+
+  .job-details li {
+    font-size: 0.95rem;
+  }
+}

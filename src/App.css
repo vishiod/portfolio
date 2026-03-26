@@ -1,0 +1,53 @@
+.App {
+  min-height: 100vh;
+  width: 100%;
+}
+
+section {
+  min-height: 100vh;
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: var(--text-light);
+  margin-bottom: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 300px;
+  background-color: var(--text-color);
+  margin-left: 20px;
+}
+
+.section-number {
+  color: var(--accent-color);
+  font-family: 'Courier New', monospace;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 60px 20px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .section-title::after {
+    width: 150px;
+  }
+}

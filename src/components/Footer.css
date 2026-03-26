@@ -1,0 +1,21 @@
+.footer {
+  padding: 30px 20px;
+  text-align: center;
+  background-color: var(--secondary-color);
+}
+
+.footer-content p {
+  color: var(--text-color);
+  font-size: 0.9rem;
+  margin: 5px 0;
+}
+
+.footer-tech {
+  font-family: 'Courier New', monospace;
+  color: var(--accent-color);
+}
+
+.footer-content p:hover {
+  color: var(--accent-color);
+  transition: color 0.3s ease;
+}
