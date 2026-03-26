@@ -29,7 +29,7 @@ A modern, responsive portfolio website built with React.js, showcasing my experi
 
 ## Documentation
 
-📖 **[Complete Documentation & Customization Guide](DOCUMENTATION.md)**
+📖 **[Complete Documentation & Customization Guide](docs/DOCUMENTATION.md)**
 
 Learn how to:
 - Update your photo and resume
